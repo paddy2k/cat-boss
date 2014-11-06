@@ -1,0 +1,25 @@
+{
+  "name": "cat-boss",
+  "version": "1.0.0",
+  "description": "cat-boss ========",
+  "main": "index.js",
+  "scripts": {
+    "6to5": "node node_modules/6to5/bin/6to5  final-cat-boss.js --out-file cat-compiled.js",
+    "test": "npm run 6to5 && mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paddy2k/cat-boss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paddy2k/cat-boss/issues"
+  },
+  "homepage": "https://github.com/paddy2k/cat-boss",
+  "devDependencies": {
+    "6to5": "^1.10.10",
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1"
+  }
+}
